@@ -1,0 +1,14 @@
+.Circle {
+    height: 150px;
+    width: 150px;
+    background: efefef;
+    box-shadow: 0 0 3px 2px #333;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px;
+}
+
+.Circle.active {
+    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 1);
+    background-color: pink;
+}
